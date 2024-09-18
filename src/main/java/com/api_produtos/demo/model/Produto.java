@@ -1,4 +1,4 @@
-package com.api_produtos.model;
+package com.api_produtos.demo.model;
 
 // Produto.java
 

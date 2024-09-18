@@ -4,38 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lista de Produto</title>
-    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" th:href="@{css/style.css}">
     
 </head>
 
 <body>
 
-<div th:replace="  :: content"></div>
-    
-
+    <div th:replace="fragments/header.html :: cabecalho"></div>
+    <div th:replace="fragments/section.html :: secao"></div>
+    <div th:replace="fragments/footer.html :: rodape"></div>
 </body>
 </html>
 
-<!-- <div class="container">
-    <h1>Lista de produto</h1> -->
-<!-- <table>
 
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>Nome</th>
-            <th>Preço</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>ID </td>
-            <td>Nome do produto</td>
-            <td>Preço do produto </td>
-        </tr>
-    </tbody>
-</table>
-<a href="cadastro.html">Cadastrar nove Produto</a>
-</div> -->
 
